@@ -10,8 +10,8 @@ def run_script(filename):
     )
 
 
-def test_helloworld_runs_and_prints_greeting():
-    result = run_script("helloworld.py")
+def test_calculator_runs_and_prints_greeting():
+    result = run_script("calculator.py")
     assert result.returncode == 0
     assert "Hello World" in result.stdout
 
